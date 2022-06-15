@@ -1,0 +1,40 @@
+background-icon{
+        <div before="" class="
+        before:content-[attr(before)]
+        w-10
+        h-10
+        flex
+        justify-center
+        items-center
+        text-[#6a0c6a]
+        mx-auto
+        my-32
+        relative
+        before:rounded-2xl
+        before:absolute
+        before:bg-current
+        before:inset-0
+        before:opacity-25
+        ">
+            <ion-icon name="cart-outline"></ion-icon>
+        </div>
+}
+responsive{
+            sm:640px
+            md:768px
+            1g:1024px
+            x1:1280px
+}
+build{
+    npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch 
+}
+npm run dev
+
+before{
+    before=""
+    before:content-[attr(before)]
+    before: .... class
+}
+
+
+
